@@ -7,7 +7,7 @@ packages=(
   "com.google.android.syncadapters.contacts"
   "com.android.providers.contacts"
   "com.android.providers.calendar"
-  "com.google.android.inputmethod.latin"
+  #"com.google.android.inputmethod.latin"
   "com.android.providers.userdictionary"
   "com.google.android.tvrecommendations"
   "com.google.android.youtube.tvmusic"
