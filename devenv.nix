@@ -1,12 +1,8 @@
-{ ... }:
+{ pkgs, ... }:
 {
 
-  # packages = [ pkgs.universal-android-debloater ]; no darwin support 🫣
+  packages = [ pkgs.android-tools ];
 
-  # https://devenv.sh/languages/
-  android.enable = true;
-
-  # https://devenv.sh/basics/
   enterShell = ''
     adb --version
   '';
